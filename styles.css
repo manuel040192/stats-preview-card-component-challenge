@@ -1,0 +1,42 @@
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 960px;
+    height: 440px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #1c1938;
+    margin: 85px auto;
+}
+
+body {
+    background-color: #0a0c1b;
+}
+
+
+.violet {
+    color: #aa60d9;
+}
+
+.left_half {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.insights {
+    margin-bottom: 40px;
+}
+
+.discover {
+    margin-bottom: 40px;
+}
+
+.ciphers {
+    display: flex;
+    gap: 60px;
+}
+
+.right_half {
+    position: relative;
+}
