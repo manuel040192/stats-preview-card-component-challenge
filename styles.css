@@ -4,8 +4,7 @@
     width: 960px;
     height: 440px;
     border-radius: 10px;
-    overflow: hidden;
-    background-color: #1c1938;
+    overflow: hidden;   
     margin: 85px auto;
 }
 
@@ -21,14 +20,23 @@ body {
     padding: 50px;
     display: flex;
     flex-direction: column;
+    background-color: #1c1938;
 }
 
 .insights {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500;
 }
 
 .discover {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
+    font-family: 'Inter', sans-serif;
+    color: #c1bfd4;
+    font-size: 13px;
+    line-height: 150%;
 }
 
 .ciphers {
@@ -36,6 +44,23 @@ body {
     gap: 60px;
 }
 
+.cipher {
+    color: #ffffff;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 22px;
+    margin-bottom: 6px;
+}
+
 .right_half {
     position: relative;
+    background-color: hsl(277, 48%, 46%);
+    background-blend-mode: overlay;
+    background-image: url(images/image-header-desktop.jpg);
+}
+
+.text {
+    color:#c1bfd4;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
 }
