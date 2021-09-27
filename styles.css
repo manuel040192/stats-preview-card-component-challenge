@@ -55,7 +55,7 @@ body {
     position: relative;
     background-color: hsl(277, 48%, 46%);
     background-blend-mode: overlay;
-    background-image: url(images/image-header-desktop.jpg);
+    background-image: url(image/image-header-desktop.jpg);
 }
 
 .text {
